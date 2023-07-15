@@ -1,0 +1,275 @@
+* {
+	box-sizing: border-box;
+	/*https://piccalil.li/tutorial/how-css-box-sizing-works/*/
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+} */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-family: "Saira", sans-serif;
+	font-size: 1rem;
+	/*1 rem = 16px*/
+	line-height: 1.5;
+}
+
+.flow > * {
+	margin-top: 2.5rem;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 4.209rem;
+}
+
+h2 {
+	font-size: 3.157rem;
+}
+
+h3 {
+	font-size: 2.369rem;
+}
+
+h4 {
+	font-size: 1.777rem;
+	font-family: "Saira", sans-serif;
+	font-weight: 510;
+}
+
+h5 {
+	font-size: 1.333rem;
+}
+
+h6 {
+	font-size: 1.333rem;
+}
+
+h8 {
+	font-weight: bold;
+	justify-content: center;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+small,
+.text_small {
+	font-size: 0.75rem;
+}
+
+/*NAVIGATION*/
+.nav-title {
+	font-size: 3.157rem;
+	/* background: #0f0f0f; */
+	text-align: center;
+}
+
+.nav {
+	height: 6rem;
+	/* background: #0f0f0f; */
+}
+
+ul {
+	padding: 2rem 0;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.link2 {
+	font-weight: bold;
+}
+
+.link2:hover {
+	color: rgb(80, 196, 250);
+}
+
+/*flex box behaves like this: It gets its child elements to flex or expand to fill available space!*/
+
+.flex-headline {
+	display: flex;
+	text-decoration: underline;
+	text-decoration-color: rgb(80, 196, 250);
+}
+
+.flex-featured {
+	text-decoration: underline;
+	text-decoration-color: rgb(80, 196, 250);
+}
+
+.needle {
+	height: 11rem;
+	width: 20rem;
+	font-size: 8rem;
+	border-radius: 1rem;
+	background: #002256;
+	/* background: #0f0f0f; */
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stories {
+	/* margin-top: 2rem; */
+	border-top: 4px rgb(80, 196, 250) solid;
+}
+
+.tv,
+.ball,
+.hat,
+.headphone {
+	font-size: 18px;
+	color: #000010;
+	display: flex;
+	justify-content: space-between;
+}
+
+.names {
+	display: flex;
+	flex-direction: column;
+}
+
+.greyheading {
+	color: darkgrey;
+}
+
+.botlinks {
+	background: #3d3d3d;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.row4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 2rem;
+}
+
+.bottom-footer {
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: #ffffff;
+	background: #0f0f0f;
+}
+
+.dashed {
+	border-bottom: 2px dimgray dashed;
+}
+
+.arrow-up {
+	font-size: 2rem;
+}
+
+/* CSS FOR THE SECOND PAGE */
+
+.big-title {
+	text-align: center;
+}
+
+.teams-scores {
+	color: #002256;
+	border-radius: 1rem;
+}
+
+.score {
+	font-family: "Purple Purse", cursive;
+}
+
+.goal-times {
+	font-size: 2rem;
+	/* font-family: "Purple Purse", cursive; */
+}
+
+.has-dropcap:first-letter {
+	font-family: "Purple Purse", cursive;
+	float: left;
+	font-size: 6rem;
+	line-height: 0.65;
+	margin: 0.1em 0.1em 0.2em 0;
+}
+
+.dropcap {
+	background: #303030;
+	color: #fdf9f2;
+	float: left;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0.1em 0.1em 0.2em 0;
+	padding: 0.1em;
+}
+.dropcap:before,
+.dropcap:after {
+	content: "";
+	display: block;
+}
+.dropcap:before {
+	margin-top: -0.2em;
+}
+.dropcap:after {
+	margin-bottom: -0.15em;
+}
+
+/* .has-dropcap {
+	border-top: 4px black solid;
+} */
+
+.related-stories-title {
+	text-align: center;
+}
+
+.related-stories {
+	font-family: "Purple Purse", cursive;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.str1,
+.str2,
+.str3,
+.str4 {
+	color: #ffffff;
+	background: #002256;
+	border-radius: 1rem;
+}

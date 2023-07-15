@@ -1,0 +1,83 @@
+.container {
+	width: 1140px;
+	margin: 0px auto;
+	/*this is a trick, that sets the margin of container to 0px on the top and bottom - and for it to be automatically calculated to be the same on the right and left by the browser.*/
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.one {
+	width: 65px;
+}
+
+.two {
+	width: 160px;
+}
+
+.three {
+	width: 255px;
+}
+
+.four {
+	width: 350px;
+}
+
+.five {
+	width: 445px;
+}
+
+.six {
+	width: 540px;
+}
+
+.seven {
+	width: 635px;
+}
+
+.eight {
+	width: 730px;
+}
+
+.nine {
+	width: 825px;
+}
+
+.ten {
+	width: 920px;
+}
+
+.eleven {
+	width: 1015px;
+}
+
+.twelve {
+	width: 1110px;
+}
+
+.strip-left {
+	margin-left: 0px;
+}
+
+.strip-right {
+	margin-right: 0px;
+}
+
+.clear {
+	clear: both;
+}
